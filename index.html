@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+    <div id="carousel" class="carousel">
+        <ul id="slides" class="slides">
+            <li class="slide active"><img src="pic1.jpg" /></li>
+            <li class="slide"><img src="pic2.jpg" /></li>
+            <li class="slide"><img src="pic3.jpg" /></li>
+            <li class="slide"><img src="pic4.jpg" /></li>
+            <li class="slide"><img src="pic5.jpg" /></li>
+        </ul>
+        <div class="btn">
+            <input type="button" id="pausePlay" class="pausePlay" value="Pause">
+            <input type="button" id="prev" class="prev" value="Prev">
+            <input type="button" id="next" class="next" value="Next">
+
+        </div>
+        <div class="indicators">
+            <span class="indicator active" data-slide-to="0"></span>
+            <span class="indicator" data-slide-to="1"></span>
+            <span class="indicator" data-slide-to="2"></span>
+            <span class="indicator" data-slide-to="3"></span>
+            <span class="indicator" data-slide-to="4"></span>
+        </div>
+    </div>
+  
+    <script src="main.js"></script>
+</body>
+</html>
